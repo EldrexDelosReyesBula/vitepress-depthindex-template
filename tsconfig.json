@@ -6,7 +6,11 @@
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
-    "resolveJsonModule": true
+    "resolveJsonModule": true,
+    "isolatedModules": true
   },
-  "include": [".vitepress/**/*.ts", "src/**/*.ts"]
+  "include": [
+    ".vitepress/**/*.ts",
+    "src/**/*.ts"
+  ]
 }

@@ -1,11 +1,29 @@
 /**
- * Custom styles for your documentation
- * Override DepthIndex CSS variables here
+ * Custom CSS for your documentation
+ * Override DepthIndex variables here
  */
 
-/* Example variable overrides:
 :root {
-  --depthindex-color-primary: #8b5cf6;
-  --depthindex-font-family: 'Outfit', sans-serif;
+  /* Change primary color */
+  --di-primary: #4f46e5;
+  
+  /* Change font family */
+  /* --di-font-sans: 'Inter', system-ui, sans-serif; */
+  
+  /* Change panel size */
+  /* --di-panel-width: 420px; */
+  
+  /* Change border radius */
+  /* --di-border-radius-lg: 12px; */
 }
-*/
+
+/* Customize the floating button */
+/* .depthindex-floating-button { */
+/*   background: linear-gradient(135deg, #4f46e5, #7c3aed); */
+/* } */
+
+/* Customize message bubbles */
+/* .di-msg--assistant { */
+/*   background: #f0fdf4; */
+/*   border: 1px solid #bbf7d0; */
+/* } */

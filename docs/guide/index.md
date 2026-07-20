@@ -1,11 +1,28 @@
 # Getting Started
 
-Welcome to the documentation! 
+Welcome to the documentation!
 
-Click the **chat button** in the bottom-right corner to ask the AI assistant anything about these docs.
+## 🤖 Ask the AI Assistant
 
-## What's Next?
+Click the **chat button** in the bottom-right corner or use the **search bar** at the top to ask questions about this documentation.
+
+### Try asking:
+- "How do I get started?"
+- "What are the main features?"
+- "Show me configuration examples"
+
+## Quick Start
+
+```bash
+# Install dependencies
+npm install
+
+# Start development server
+npm run docs:dev
+```
+
+## Next Steps
 
 - Check out the [Example Page](/guide/example)
-- Explore the [API Reference](/api/)
-- Customize the [DepthIndex configuration](https://depthindex.vercel.app/guide/configuration)
+- Browse the [API Reference](/api/)
+- Learn about [DepthIndex configuration](https://depthindex.vercel.app/guide/configuration)

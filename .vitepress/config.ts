@@ -3,13 +3,11 @@ import DepthIndex from 'vitepress-plugin-depthindex'
 
 export default defineConfig({
   title: 'My Documentation',
-  description: 'Powered by DepthIndex AI',
+  description: 'Documentation powered by DepthIndex AI',
 
   vite: {
     plugins: [
-      DepthIndex({
-        // Use all defaults — works out of the box
-      }) as any
+      DepthIndex() as any
     ]
   },
 
@@ -25,11 +23,11 @@ export default defineConfig({
         text: 'Guide',
         items: [
           { text: 'Getting Started', link: '/guide/' },
-          { text: 'Example', link: '/guide/example' }
+          { text: 'Example Page', link: '/guide/example' }
         ]
       },
       {
-        text: 'API',
+        text: 'API Reference',
         items: [
           { text: 'Overview', link: '/api/' }
         ]
@@ -39,6 +37,10 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/YOUR_USERNAME' }
     ],
+
+    search: {
+      provider: 'local'
+    },
 
     footer: {
       message: 'Powered by DepthIndex',

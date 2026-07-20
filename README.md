@@ -1,14 +1,18 @@
-# My Documentation
+# 📚 My Documentation
 
 Documentation site powered by [VitePress](https://vitepress.dev) and [DepthIndex](https://depthindex.vercel.app) AI.
 
 ## 🚀 Quick Start
 
 ```bash
+# Clone the template
+git clone https://github.com/EldrexDelosReyesBula/vitepress-depthindex-template.git my-docs
+cd my-docs
+
 # Install dependencies
 npm install
 
-# Start dev server
+# Start development server
 npm run docs:dev
 
 # Build for production
@@ -18,20 +22,46 @@ npm run docs:build
 npm run docs:preview
 ```
 
-## 🤖 AI Assistant
+## 🤖 AI Features
 
-This documentation includes an AI assistant powered by DepthIndex:
+This template includes DepthIndex pre-configured:
 
-- **Ask questions** — Click the chat button in the bottom-right corner
-- **Works offline** — All search runs on-device
-- **Privacy-first** — No data leaves your browser
+- **Search Bar** — Type in the search bar for AI-powered answers
+- **Chat Panel** — Click the floating button (bottom-right) for full conversations
+- **On-Device** — Works offline, no API keys needed
+- **Privacy** — No tracking, no data collection
 
-## 📚 Learn More
+## 🎨 Customization
+
+Edit these files:
+- `.vitepress/config.ts` — Site configuration + DepthIndex options
+- `src/styles/custom.css` — Visual customization
+- `public/logo.svg` — Your logo
+
+## 📖 Adding Content
+
+Add markdown files to the `docs/` directory:
+- `docs/guide/` — Guides and tutorials
+- `docs/api/` — API reference
+
+## ☁️ Adding Cloud AI (Optional)
+
+1. Copy `.env.example` to `.env`
+2. Add your API key (OpenAI, Gemini, or Anthropic)
+3. Update the DepthIndex config to use `hybrid` or `cloud` mode
+
+```typescript
+DepthIndex({
+  searchMode: 'hybrid',
+})
+```
+
+## 📚 Resources
 
 - [DepthIndex Documentation](https://depthindex.vercel.app)
+- [DepthIndex GitHub](https://github.com/EldrexDelosReyesBula/vitepress-depthindex)
 - [VitePress Documentation](https://vitepress.dev)
-- [Configuration Guide](https://depthindex.vercel.app/guide/configuration)
 
 ## 📄 License
 
-MIT — feel free to use this template for your own documentation.
+MIT — Use this template for any project.
