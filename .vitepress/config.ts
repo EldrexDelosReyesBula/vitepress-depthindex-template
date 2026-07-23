@@ -7,7 +7,28 @@ export default defineConfig({
 
   vite: {
     plugins: [
-      DepthIndex() as any
+      DepthIndex({
+        // Granular Index Download Strategy: 'full' | 'lazy' | 'eager' | 'offline'
+        indexDownload: {
+          strategy: 'full',
+          maxCacheSizeMB: 50,
+        },
+        // Citations Style: 'superscript' | 'inline' | 'underline'
+        citations: {
+          style: 'superscript',
+          showInlineCitations: true,
+        },
+        // References Section at Bottom of Answer
+        references: {
+          enabled: false,
+          style: 'list',
+        },
+        // WebGPU Hardware Acceleration
+        gpu: {
+          enabled: true,
+          fallback: 'silent',
+        },
+      }) as any
     ]
   },
 

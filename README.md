@@ -22,14 +22,17 @@ npm run docs:build
 npm run docs:preview
 ```
 
-## 🤖 AI Features
+## 🤖 AI Features (DepthIndex v1.2.2)
 
 This template includes DepthIndex pre-configured:
 
-- **Search Bar** — Type in the search bar for AI-powered answers
-- **Chat Panel** — Click the floating button (bottom-right) for full conversations
-- **On-Device** — Works offline, no API keys needed
-- **Privacy** — No tracking, no data collection
+- **Search Bar** — Type in the search bar for instant, AI-powered answers
+- **Chat Panel** — Click the floating button (bottom-right) for multi-turn conversations
+- **WebGPU Acceleration** — Lightning-fast, hardware-accelerated vector search
+- **Granular Indexing** — Stream index chunks lazily or eagerly on demand
+- **Citations & References** — Superscript, inline, or underlined citations with configurable reference lists
+- **On-Device & Offline** — Works 100% offline with zero API keys required
+- **Privacy First** — Client-side PII filtering and zero telemetry tracking
 
 ## 🎨 Customization
 
