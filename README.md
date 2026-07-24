@@ -22,7 +22,7 @@ npm run docs:build
 npm run docs:preview
 ```
 
-## 🤖 AI Features (DepthIndex v1.2.2)
+## 🤖 AI Features (DepthIndex v1.3.0)
 
 This template includes DepthIndex pre-configured:
 
@@ -33,6 +33,10 @@ This template includes DepthIndex pre-configured:
 - **Citations & References** — Superscript, inline, or underlined citations with configurable reference lists
 - **On-Device & Offline** — Works 100% offline with zero API keys required
 - **Privacy First** — Client-side PII filtering and zero telemetry tracking
+- **Experimental Engine** *(v1.3.0, opt-in)* — Local NLU reasoning, Knowledge Graph, and 5-step answer synthesis — no cloud required
+- **Framework-Agnostic Core** *(v1.3.0)* — Use `DepthIndexCore` outside VitePress on any SSG or custom app
+- **Health Audits** *(v1.3.0)* — Detect orphaned pages, missing code examples, and contradictions in your docs
+- **Interactive Search UI** *(v1.3.0)* — "Explain This" selection widget (`Ctrl/Cmd+Shift+K`) and Code Playground
 
 ## 🎨 Customization
 

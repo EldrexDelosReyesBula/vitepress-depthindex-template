@@ -28,6 +28,18 @@ export default defineConfig({
           enabled: true,
           fallback: 'silent',
         },
+        // ──────────────────────────────────────────────────────────────
+        // Experimental Local Intelligence Engine (v1.3.0+)
+        // Enable for on-device NLU reasoning, Knowledge Graph traversal,
+        // and 5-step answer synthesis — no cloud or API key required.
+        // ──────────────────────────────────────────────────────────────
+        // experimental: {
+        //   enabled: false,          // Set to true to activate
+        //   mode: 'auto',            // 'auto' | 'local' | 'disabled'
+        //   modelSize: 'small',      // 'small' | 'medium'
+        //   enableReasoning: true,   // Multi-step NLU pipeline
+        //   enableKnowledgeGraph: true, // Cross-page concept graph
+        // },
       }) as any
     ]
   },
